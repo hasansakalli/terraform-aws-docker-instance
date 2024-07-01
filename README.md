@@ -1,4 +1,4 @@
----
+
 Terraform Module to provision an AWS EC2 instance with the latest amazon linux 2023 ami and installed docker in it.
 
 Not intended for production use. It is an example module.
@@ -18,4 +18,3 @@ module "docker_instance" {
     key_name = "clarusway"
 }
 ```
----
